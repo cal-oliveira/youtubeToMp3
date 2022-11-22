@@ -1,0 +1,49 @@
+* {
+    font-family: 'Roboto, sans-serif';
+}
+
+body {
+    background: #202024;
+}
+
+#center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    align-items: center;
+}
+
+.popup {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #E1E1E6;
+    display: none;
+}
+
+input {
+    height: 50px;
+    width: 400px;
+    font-size: large;
+    box-shadow: 5px 5px 5px rgba(0 , 0, 0, 0.3);
+    text-align: center;
+}
+
+button {
+    height: 50px;
+    background-color: #F7DD43;
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: larger;
+    border: none;
+    outline: none;
+    box-shadow: 5px 5px 5px rgba(0 , 0, 0, 0.3);
+}
+
+button:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
