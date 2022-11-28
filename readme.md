@@ -25,3 +25,12 @@ insira o link do youtube
 pressione o botão de download
 
 a música no formato mp3 será baixada para a pasta de downloads dentro do projeto
+## Dependências
+
+cors
+
+express
+
+yt-converter
+
+ytdl-getinfo
