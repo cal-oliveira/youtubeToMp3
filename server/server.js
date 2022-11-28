@@ -17,12 +17,6 @@ app.use(cors({
 }))
 app.use(route)
 
-route.get('/test',(req,res)=>{
-    return res.json({
-        message:'Server Running...'
-    })
-})
-
 route.post('/',(req,res)=>{
 
     const url = req.body.url
